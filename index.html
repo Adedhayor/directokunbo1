@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Directokunbo — Import Quality Cars from China</title>
+  <meta name="description" content="Import quality cars from China — auctions, verified reports, tracked shipping, transparent Naira pricing.">
+
+  <!-- Google Fonts: Roboto Condensed (headings) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div class="brand">
+        <a href="#top"><img src="assets/logo-placeholder.png" alt="Directokunbo logo" class="logo"></a>
+      </div>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#faqs" class="nav-link">FAQs</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+        <a href="#inventory" class="cta outline">Log In →</a>
+      </nav>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="mainNav">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="top">
+    <section class="hero" style="background-image: url('assets/hero.jpg')">
+      <div class="overlay"></div>
+      <div class="container hero-inner">
+        <h1 class="hero-title"><span>IMPORT QUALITY CARS</span> FROM CHINA<br><span class="thin">ZERO STRESS. ZERO GUESSWORK.</span></h1>
+        <p class="hero-sub">Access over 500,000 used, salvage, and brand-new vehicles from trusted Chinese auction partners — delivered safely to Lagos.</p>
+
+        <form class="search-bar" id="searchBar" role="search">
+          <select name="type">
+            <option>Type</option>
+            <option>Car</option>
+            <option>Truck</option>
+          </select>
+          <select name="make">
+            <option>Make</option>
+            <option>Lexus</option>
+            <option>Toyota</option>
+          </select>
+          <select name="model">
+            <option>Model</option>
+            <option>RX</option>
+            <option>FJ Cruiser</option>
+          </select>
+          <select name="price">
+            <option>Price</option>
+            <option>₦0 - ₦5,000,000</option>
+            <option>₦5,000,000+</option>
+          </select>
+          <button type="submit" class="btn primary">Search Inventory</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Inventory preview -->
+    <section id="inventory" class="section inventory">
+      <div class="container">
+        <h2 class="section-title">Popular Auction Vehicles in Nigeria</h2>
+        <div class="tabs">
+          <button class="tab active" data-target="popular">Popular</button>
+          <button class="tab" data-target="buy-it-now">Buy It Now</button>
+          <button class="tab" data-target="clean-titles">Clean Titles</button>
+        </div>
+
+        <div class="cards-grid" id="cardsGrid">
+          <!-- Card 1 -->
+          <article class="card">
+            <img src="assets/car1.jpg" alt="Lexus RX 350" loading="lazy">
+            <div class="card-body">
+              <h3 class="card-title">2025 Lexus RX 350 LE</h3>
+              <p class="meta">Location: China • Mileage: 12,000 km</p>
+              <div class="card-actions">
+                <button class="btn compact">Bid</button>
+                <button class="btn outline compact">Buy Now</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card">
+            <img src="assets/car2.jpg" alt="Toyota FJ Cruiser" loading="lazy">
+            <div class="card-body">
+              <h3 class="card-title">2020 Toyota FJ Cruiser</h3>
+              <p class="meta">Location: Japan • Mileage: 85,000 km</p>
+              <div class="card-actions">
+                <button class="btn compact">Bid</button>
+                <button class="btn outline compact">Buy Now</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card">
+            <img src="assets/car3.jpg" alt="Hyundai Sonata" loading="lazy">
+            <div class="card-body">
+              <h3 class="card-title">2020 Hyundai Sonata SE</h3>
+              <p class="meta">Location: China • Mileage: 40,000 km</p>
+              <div class="card-actions">
+                <button class="btn compact">Bid</button>
+                <button class="btn outline compact">Buy Now</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="card">
+            <img src="assets/car4.jpg" alt="Lexus RX 350" loading="lazy">
+            <div class="card-body">
+              <h3 class="card-title">2025 Lexus RX 350 LE</h3>
+              <p class="meta">Location: China • Mileage: 8,400 km</p>
+              <div class="card-actions">
+                <button class="btn compact">Bid</button>
+                <button class="btn outline compact">Buy Now</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="section how-it-works">
+      <div class="container">
+        <h2 class="section-title">How It Works</h2>
+        <p class="lede">We make importing a vehicle easy — search, bid, pay, and pickup in Lagos.</p>
+
+        <div class="how-grid">
+          <div class="how-card media-left">
+            <img src="assets/tiles-1.jpg" alt="" loading="lazy">
+          </div>
+
+          <div class="how-stack">
+            <div class="how-item">
+              <div class="icon">🏷️</div>
+              <h4>Browse & Inspect</h4>
+              <p>Explore thousands of auction listings with inspection reports, photos and vehicle history.</p>
+            </div>
+            <div class="how-item">
+              <div class="icon">⚖️</div>
+              <h4>Bid or Buy It Now</h4>
+              <p>Bid in auctions or use Buy It Now for guaranteed purchase.</p>
+            </div>
+            <div class="how-item">
+              <div class="icon">🚚</div>
+              <h4>Pay & Confirm Purchase</h4>
+              <p>Secure payments and purchase confirmations with transparent fees.</p>
+            </div>
+            <div class="how-item">
+              <div class="icon">📦</div>
+              <h4>Shipping & Tracking</h4>
+              <p>We handle shipping, customs, and tracking until the vehicle reaches Lagos.</p>
+            </div>
+            <div class="how-item">
+              <div class="icon">📍</div>
+              <h4>Pickup in Lagos</h4>
+              <p>Pickup at our partner yards or arrange delivery.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="section why">
+      <div class="container">
+        <h2 class="section-title">Why DirectoTokunbo</h2>
+        <div class="why-grid">
+          <div class="why-card">
+            <h4>Unlimited Access to Chinese Auctions</h4>
+            <p>Get real-time access to auctions and verified listings.</p>
+          </div>
+          <div class="why-card">
+            <h4>End-to-End Support</h4>
+            <p>From bidding to shipping — we handle the full process.</p>
+          </div>
+          <div class="why-card">
+            <h4>Verified Condition Reports</h4>
+            <p>Professional inspections and condition reports for peace of mind.</p>
+          </div>
+          <div class="why-card">
+            <h4>Transparent Naira Pricing</h4>
+            <p>All fees and pricing shown in Naira to avoid surprises.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faqs" class="section faqs">
+      <div class="container">
+        <h2 class="section-title">Your Questions. Answered</h2>
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <button class="accordion-toggle" aria-expanded="false">How do I buy a car from China through your platform?</button>
+            <div class="accordion-panel">Browse listings, place bids or Buy It Now, then handle shipping to Lagos.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-toggle" aria-expanded="false">Are all vehicles inspected?</button>
+            <div class="accordion-panel">Yes — each vehicle has inspection photos and a verified condition report where available.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-toggle" aria-expanded="false">How long does shipping take?</button>
+            <div class="accordion-panel">Typical shipping and customs take 6–10 weeks depending on routes and schedules.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-toggle" aria-expanded="false">Do you handle clearing?</button>
+            <div class="accordion-panel">Yes — we handle clearing and documentation for our customers.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact dark-section">
+      <div class="container contact-grid">
+        <div class="contact-form-card">
+          <h3>Contact us</h3>
+          <p>We'd love to hear from you. Please fill out this form.</p>
+          <form id="contactForm">
+            <label>
+              <span class="sr-only">Name</span>
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              <span class="sr-only">Email</span>
+              <input type="email" name="email" placeholder="name@email.com" required>
+            </label>
+            <label>
+              <span class="sr-only">Message</span>
+              <textarea name="message" rows="5" placeholder="Leave us a message..."></textarea>
+            </label>
+            <button type="submit" class="btn primary">Send message</button>
+          </form>
+        </div>
+
+        <div class="contact-image">
+          <img src="assets/contact-car.jpg" alt="Car image" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <img src="assets/logo-placeholder.png" alt="logo" class="logo-foot">
+          <p>© <span id="year"></span> DirectoTokunbo — All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#how-it-works">How it Works</a>
+          <a href="#faqs">FAQs</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-contact">
+          <p>support@directokunbo.com</p>
+          <p>+234 800 000 0000</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
